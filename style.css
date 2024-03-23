@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    
+
+/*-------header aria---*/
+/*-------header aria---*/
+.row{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.top-header{
+    background: #ba2e1f;
+    position: relative;   
+}
+.top-header ul li{
+    display: inline-block;
+    padding: 20px 10px;
+    position: relative;
+}
+.top-header ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.top-header ul li::after{
+    content: "";
+    width: 2px;
+    height: 10px;
+    background: #fff;
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: -8px;
+}
+.top-header img{
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    margin-bottom: 10px;   
+}
+.top-header button{
+    padding: 15px;
+    width: 250px;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    border-radius: 25px;
+    border: none;
+    display: block;
+    cursor: pointer;
+}
+.free-psd img{
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 36px;
+    cursor: pointer;
+}
+.free-psd p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+.icon{
+    position: relative;   
+}
+.icon ul{
+    margin-top: 60px;
+    float: right;
+    margin-right: 50px;
+}
+.icon ul li{
+    display: inline-block;
+    padding: 15px;
+    background: #333333;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.icon ul li a{
+    color: #fff;
+    display: block; 
+    cursor: pointer; 
+}
+.icon ul li:hover{
+    background: blueviolet;
+}
+.icon ul li a:hover{
+    
+    
+}
+.yellow{
+    position: absolute;
+    top: 60px;
+    right: -5px;
+}
+.yellow{
+    background: #ee802f;
+    padding: 15px;
+    border-radius: 50%; 
+    cursor: pointer;   
+}
+.yellow a i{
+    transform: rotate(60deg);
+    color: #fff;
+    cursor: pointer;  
+}
+/*-------header nav aria---*/
+.nav ul{
+    margin-top: 40px;
+    margin-left: 20px;
+    background: #333333;
+    margin-right: 10px;
+    
+
+}
+.nav ul li{
+    display: inline-block;
+    padding: 15px 15px;
+    margin-left: 10px;
+    
+    
+}
+.nav ul li a{
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+.nav ul li:hover a{
+    color: #ba2e1f;
+    cursor: pointer;
+}
+/*==========service section========*/
+section{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.a-huge img{
+    width: 400px;
+    height: 440px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+
+}
+.a-huge-right img{
+    margin-top: 140px;
+    margin-left: -30px;
+    font-size: 86px;
+    margin-right: 10px;
+
+}
+.a-huge-right p{
+    margin-top: 20px;
+    margin-left: -30px;
+
+}
+.a-huge-right h3{
+    margin-top: 20px;
+    margin-left: 300px;
+    
+}
+.a-huge-right h3 a{
+    text-decoration: none;
+    color: #ba2e1f;
+    cursor: pointer;
+    font-size: 13px;
+
+}
+/*-------------service section button------*/
+
+#service-buttom{
+    background: #f2f2f2;
+    padding-top: 50px;
+    margin-top: -14px;
+    color: #989898;
+
+}
+#service-buttom h2{
+    color: #333333;
+}
+
+
+.service-name img{
+    width: 64px;
+    height: 64px;
+}
+.service-section-buttom{
+    
+    
+    margin-top: 0px;
+}
+
+.a-tittle h2{
+    margin-bottom: 50px;
+    margin-left: 15px;
+}
+
+.a-tittle img{
+    width: 290px;
+    height: 140px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    
+}
+.a-tittle p{
+    margin-right: 30px;
+    text-align: unset;
+    font-size: 13px;
+    margin-left: 15px;
+    
+}
+.a-tittle h3{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.a-tittle h3 a{
+    color: #ba2e1f;
+    text-decoration: none;
+    font-size: 13px;
+}
+.service-name h2{
+    margin-bottom: 50px;
+
+}
+
+.service-photo img{
+    float: left;
+    margin-right: 20px;
+}
+.service-photo h4{
+    margin-top: 0px;
+
+}
+.service-photo p{
+    font-size: 13px;
+}
+
+.service-h{
+    margin-bottom: 10px;
+
+}
+.service-auto{
+    margin-top: 30px;
+  
+}
+.service-auto p{
+    font-size: 13px;
+}
+.service-auto img{
+    float: left;
+    margin-right: 20px;
+}
+.service-koto{
+    margin-top: 30px;
+    
+}
+.service-koto p{
+    font-size: 13px;
+}
+.service-koto img{
+    
+    float: left;
+    margin-right: 20px;   
+}
+.service-loto{
+    margin-top: 30px;
+}
+.service-loto p{
+    font-size: 13px;
+}
+.service-loto img{
+    float: left;
+    margin-right: 20px;
+    
+}
+.service-name h3{
+    margin-top: 20px;
+    font-size: 13px;
+    float: right;
+    margin-right: 20px;
+}
+.service-name h3{
+    color: #ba2e1f;
+}
+/*-----------what our clients say--service section button------*/
+
+.b-tittle img{
+    width: 50px;
+    height: 40px;
+    margin-top: 50px;
+    float: left;
+    margin-right: 20px;
+}
+.b-tittle h3{
+    margin-top: 60px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.b-tittle p{
+    font-size: 13px;
+    line-height: 1rem;
+    letter-spacing: normal;
+}
+.b-tittle h4{
+    font-size: 13px;
+    color: #b92d1f;
+    float: right;
+    margin-right: 10px;
+    font-weight: 400px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+/*-----------footer-section------*/
+.footer-section{
+    color: #666666;
+
+}
+.footer h3{
+     margin-top: 30px;
+     margin-bottom: 30px;
+     font-size: 16px;
+    
+
+}
+.footer h3::before{
+    content: "";
+    width: 210px;
+    height: 2px;
+    background: #666666;
+    display: block;
+    margin-bottom: 20px;
+
+}
+.footer p{
+    font-size: 15px;
+    line-height: 15px;
+    margin-left: 20px;
+
+}
+.footer-section span{
+    color: #b92d1f;
+}
+.footer h3{
+    margin-left: 20px;
+}
+.loren::after{
+    content: "";
+    width: 210px;
+    height: 2px;
+    display: block;
+    background: #d4d4d4;
+    margin-top: 5px;
+    
+}
+.footer p{
+    margin-bottom: 7px;
+    
+}
+.footer h4{
+    margin-left: 20px;
+    font-size: 18px;
+    
+
+}
+.footer h5{
+    margin-bottom: 10px;
+    color: #b92d1f;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.footer-1st{
+    padding-left: 30px;
+}
+.footer-2nd{
+    padding-left: 50px;
+}
+
+
+
+
+/*-----------contract -section------*/
+
+form input{
+    width: 210px;
+    height: 30px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+}
+.footer-3nd{
+    padding-left: 60px;
+}
+
+form textarea{
+    margin-left: 20px;
+    width: 210px;
+    margin-top: 10px;
+    background: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    height: 110px;
+}
+form button{
+    margin-left: 20px;
+    margin-top: 10px;
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+
+
